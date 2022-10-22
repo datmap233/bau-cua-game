@@ -1,0 +1,38 @@
+.ranking-sever{
+	position: absolute;
+	right: -2000px;
+	top: 110px;
+	opacity: 0;
+	transition: 0.7s;
+}
+
+.move{
+	right: 20px;
+	opacity: 1;
+}
+
+.ranking-sever .header-element{
+	font-size: 20px;
+	width: 165px;
+}
+.play {
+    float: right;
+    button {
+        font-size: 1rem;
+    }
+}
+.tgplay {
+    display: none;
+}
+.play-custom {
+    width: 500px;
+    background: red;
+    border-radius: 15px;
+    padding: 10px 0;
+    border: 2px dashed white;
+}
+.play-global, .play-custom {
+	position: absolute;
+	top: 100px;
+	left: 250px;
+}

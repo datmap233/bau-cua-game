@@ -1,0 +1,27 @@
+.action-menu{
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	display: flex;
+}
+
+.action-menu i{
+	padding-top: 7px;
+	font-size: 20px;
+	color: yellow;
+
+}
+
+.ranking, .mess, .noti, .event, .setting{
+	border: 2px solid yellow;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin: 0 10px;
+	text-align: center;
+}
+
+.ranking button, .mess button, .noti button, .event button, .setting button{
+	background: none;
+	border: none;
+}

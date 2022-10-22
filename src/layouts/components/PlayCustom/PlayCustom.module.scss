@@ -1,0 +1,36 @@
+.play-custom {
+    position: absolute;
+    top: 100px;
+    left: 250px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-label {
+    width: 100px;
+    color: white;
+}
+
+.submit-btn {
+    margin-left: 55px;
+}
+.btn {
+    width: 200px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px dashed white;
+    padding: 10px 0;
+}
+.row {
+    width: 285px;
+}

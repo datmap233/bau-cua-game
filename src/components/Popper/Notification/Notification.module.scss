@@ -1,0 +1,24 @@
+.list-over {
+    width: 800px;
+    height: 460px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.item {
+    height: 60px;
+    background-color: var(--orange);
+    margin-bottom: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0;
+    color: var(--white);
+    font-weight: 400;
+    & > .date {
+        font-size: 13px;
+    }
+}

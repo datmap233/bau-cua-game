@@ -1,0 +1,53 @@
+.room-online {
+    width: 110%;
+    border-radius: 15px;
+    background: red;
+    margin: 5px 0;
+}
+
+.tgplay {
+    display: none;
+}
+
+.room-online img {
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+.room-online img {
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.play-global,
+.play-custom {
+    position: absolute;
+    top: 100px;
+    left: 250px;
+}
+
+.play-global .row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
+.detail-room {
+    display: flex;
+    padding: 0 15px;
+    justify-content: space-between;
+    color: white;
+}
+
+.detail-room i {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.info-room p {
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+.info-room p {
+    font-size: 15px;
+    margin-bottom: 0;
+}

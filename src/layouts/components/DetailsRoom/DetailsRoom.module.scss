@@ -1,0 +1,67 @@
+.details-room{
+	background: #f07630;
+	width: 355px;
+	padding: 10px;
+	border-radius: 10px;
+	display: flex;
+	color: white;
+}
+.detail-room{
+	display: flex;
+	padding: 0 15px;
+	justify-content: space-between;
+	color: white;
+
+}
+
+.detail-room i{
+	margin-top: 15px;
+	font-size: 14px;
+}
+
+.infos-room p{
+	margin-bottom: 0;
+	font-size: 15px;
+}
+
+.info-room p{
+	font-size: 15px;
+	margin-bottom: 0;	
+}
+
+.infos-room{
+	display: flex;
+	border-right: 1px solid white;
+	padding-right: 10px;
+	margin-right: 10px;
+}
+
+.avatar-member{
+	width: 25px ;
+	height: 25px;
+	border-radius: 50%;
+}
+
+.member-room{
+	width: 120px;
+}
+
+.add-member{
+	width: 25px ;
+	height: 25px;
+	border-radius: 50%;
+	font-size: 14px;
+}
+
+.boss-img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+.boss p{
+	margin-bottom: 0;
+	margin-top: 3px;
+}

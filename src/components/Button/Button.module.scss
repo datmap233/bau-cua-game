@@ -1,0 +1,31 @@
+.btn{
+	width: 200px;
+	margin: 5px;
+	border-radius: 10px;
+	border: 1px dashed white;
+	padding: 10px 0;
+}
+
+.custom{
+	background: red;
+	color: white;
+    height: 46px;
+}
+
+.global{
+	background: orange;
+	color: white;	
+    height: 46px;
+}
+.wrapper {
+    cursor: pointer;
+
+    + .wrapper {
+        margin-left: 8px;
+    }
+
+    &.disable {
+        pointer-events: none;
+        opacity: 0.5;
+    }
+}

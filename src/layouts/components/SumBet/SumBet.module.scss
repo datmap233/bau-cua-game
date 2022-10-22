@@ -1,0 +1,28 @@
+.sumbet{
+	position: absolute;
+	right: 10px;
+	bottom: 43px;
+	width: 500px;
+}
+
+.sumbet-items{
+	display: flex;
+	align-items: center;
+	background: red;
+	color: white;
+	justify-content: space-between;
+	border-radius: 40px;
+	margin-bottom: 5px;
+}
+
+.sumbet-items span{
+	margin-left: 20px;
+}
+
+
+.sumbet-items img{
+	width: 50px;
+	height: 45px;
+	border-radius: 0 50% 50% 0;
+
+}
