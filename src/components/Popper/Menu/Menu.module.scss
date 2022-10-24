@@ -9,7 +9,6 @@
     width: 150px;
     height: 60px;
     border: none;
-
 }
 
 .thumb-info {
@@ -42,7 +41,7 @@
         -webkit-line-clamp: 1;
         overflow: hidden;
     }
-    &>.mess{
+    & > .mess {
         margin-top: -3px;
         font-size: 13px;
     }
@@ -76,4 +75,52 @@
 
 .list-over ul li:hover {
     background: red;
+}
+
+.message-box {
+    display: none;
+    position: absolute;
+    top: calc(100% + 20px);
+    right: calc(100% + 20px);
+    width: 300px;
+    height: 160px;
+    background-color: white;
+}
+
+.message-box.open {
+    display: block;
+}
+
+.chat-list {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding : 0 8px;
+    height: 100px;
+}
+
+.me {
+    background-color: blue;
+}
+
+.friend {
+    background-color: #ccc;
+}
+
+.me,
+.friend {
+    max-width: 60%;
+    width: fit-content;
+    padding: 2px 8px;
+    border-radius: 16px;
+    margin-bottom: 8px;
+    color: white;
+}
+.input{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    outline:none;
 }

@@ -83,7 +83,7 @@ function Home({ children }) {
                 <Menu height="250px" title="Leader Board" board to="/board"/>
             </div>
             <div key={2} className={cx('ranking-sever')} ref={pushRefActionMenu}>
-                <Menu height="250px" title="Tin nhắn" message to="/message"/>
+                <Menu height="250px" title="Tin nhắn" message/>
             </div>
             <div key={3} className={cx('ranking-sever')} ref={pushRefActionMenu}>
                 <Menu height="250px" title="Thông báo" notify to="/notify"/>

@@ -4,7 +4,7 @@ import styles from './Menu.module.scss';
 
 const cx = classNames.bind(styles);
 
-function MenuItem({ friend = false, board = false, message = false, notify = false, gift = false, setting = false }) {
+function MenuItem({ friend = false, board = false, message = false, notify = false, gift = false, setting = false, onClick=null }) {
     return (
         <>
             {friend && (
@@ -22,7 +22,7 @@ function MenuItem({ friend = false, board = false, message = false, notify = fal
                 </div>
             )}
             {message && (
-                <div className={cx('thumb-info')}>
+                <div className={cx('thumb-info')} onClick={onClick}>
                     <div className={cx('avatar')}>
                         <img
                             src="https://firebasestorage.googleapis.com/v0/b/bau-cua-game.appspot.com/o/img%2Ffriend.jpg?alt=media&token=595528a1-da50-4294-a94c-7da03ce21f21"
